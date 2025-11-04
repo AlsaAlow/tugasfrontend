@@ -1,3 +1,8 @@
+import Gen1 from "./gen1";
+import Gen2 from "./gen2";
+import Gen3 from "./Gen3";
+import Gen4 from "./Gen4";
+
 export default function Generations() {
   return (
     <section className="p-6">
@@ -7,9 +12,3 @@ export default function Generations() {
       </div>
     </section>
   );
-}
-
-function Gen1(){ return <div className="p-4 border rounded">Gen 1</div> }
-function Gen2(){ return <div className="p-4 border rounded">Gen 2</div> }
-function Gen3(){ return <div className="p-4 border rounded">Gen 3</div> }
-function Gen4(){ return <div className="p-4 border rounded">Gen 4</div> }
